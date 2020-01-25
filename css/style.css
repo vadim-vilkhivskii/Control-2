@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+
+body {
+    background-color: #ebebeb;
+    padding: 0 141px;
+}
+
+body section {
+    background-color: white;
+    width: 50%;
+    padding: 450px 30px 90px 30px;
+}
+
+section p:first-of-type {
+    margin-bottom: 62px;
+}
+
+
+ul {
+    font-family: 'Myriad Pro';
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    width: 24%;
+    border-right: 3px solid black;
+    padding-top: 10px;
+}
+
+div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: 'Myriad Pro';
+}
+ul li {
+    padding-left: 26px;
+    padding-top: 12px;
+}
+section p:last-of-type {
+    margin-bottom: 200px;
+}
+
+
+
+ul:first-of-type li:first-of-type {
+    padding-left: 0;
+    background-color: #1f2c39;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px 0 0 50px;
+    padding-top: 0;
+}
+ul:last-of-type li:first-of-type{
+    padding-left: 0;
+    background-color: #28aeaf;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    padding-top: 0;
+}
+ul:nth-child(2) li:first-of-type{
+    padding-left: 0;
+    background-color: #03246c;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    padding-top: 0;
+}
+ul:nth-child(3) li:first-of-type{
+    padding-left: 0;
+    background-color: #028090;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    padding-top: 0;
+}
+
+
+
+ul:first-of-type{
+    border-right: #1f2c39 solid 3px;
+}
+
+ul:nth-child(2){
+    border-right: #03246c solid 3px;
+}
+ul:nth-child(3){
+    border-right: #028090 solid 3px;
+}
+ul:last-of-type{
+    border-right: #28aeaf solid 3px;
+}
+
+
+
+ul:first-of-type li a {
+    color: #1f2c39;
+}
+ul:nth-child(2) li a {
+    color: #03246c;
+}
+ul:nth-child(3) li a {
+    color: #028090;
+}
+ul:last-of-type li a {
+    color: #28aeaf;
+}
+ul li:first-of-type a {
+    color:white;
+}
